@@ -1,5 +1,8 @@
 package com.emirozturk;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Uygulama4 {
     public static void main(String[] args) {
         //Bir listede 10'dan büyük elemanların sayısını döndüren uygulama
