@@ -24,6 +24,9 @@ class Kisi{
     public byte getYas(){
         return yas;
     }
+    public String toString(){
+        return ad + " " + soyad + " " + yas;
+    }
 }
 
 public class Main {
@@ -34,6 +37,6 @@ public class Main {
         yeniKisi.setAd("Yunus Emre");
         yeniKisi.setSoyad("BATUR");
         yeniKisi.setYas((byte)20);
-        System.out.println(yeniKisi.getAd() + " "+ yeniKisi.getSoyad() + " "+yeniKisi.getYas());
+        System.out.println(yeniKisi);
     }
 }
