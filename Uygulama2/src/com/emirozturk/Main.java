@@ -27,16 +27,17 @@ class Kisi{
     public String toString(){
         return ad + " " + soyad + " " + yas;
     }
+    public Kisi(String ad,String soyad,byte yas){
+        this.ad = ad;
+        this.soyad = soyad;
+        this.yas = yas;
+    }
 }
 
 public class Main {
 
     public static void main(String[] args) {
-        Kisi yeniKisi;
-        yeniKisi = new Kisi();
-        yeniKisi.setAd("Yunus Emre");
-        yeniKisi.setSoyad("BATUR");
-        yeniKisi.setYas((byte)20);
+        var yeniKisi = new Kisi("Yunus Emre","BATUR",(byte)20);
         System.out.println(yeniKisi);
     }
 }
