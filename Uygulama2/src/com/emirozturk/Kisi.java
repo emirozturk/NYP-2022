@@ -1,30 +1,34 @@
 package com.emirozturk;
 
+import java.time.LocalDate;
+
 public class Kisi {
     private String ad;
     private String soyad;
-    private byte yas;
+    private short dogumYili;
     private String adres;
 
-    public Kisi(String ad, String soyad, byte yas) {
+    public Kisi(String ad, String soyad, short dogumYili) {
         this.ad = ad;
         this.soyad = soyad;
-        this.yas = yas;
+        this.dogumYili = dogumYili;
         adres = "Girilmedi";
     }
-    public Kisi(String ad,String soyad,byte yas,String adres){
+    public Kisi(String ad,String soyad,short dogumYili,String adres){
         this.ad = ad;
         this.soyad = soyad;
-        this.yas = yas;
+        this.dogumYili = dogumYili;
         this.adres = adres;
     }
 
-    public byte getYas(){return yas;}
+    public byte yasHesapla(){
+        return (byte)(LocalDate.now().getYear() - dogumYili);
+    }
 
     public String toString() {
         if(adres.equals("Girilmedi"))
-            return ad + " " + soyad + " " + yas;
+            return ad + " " + soyad + " " + yasHesapla();
         else
-            return ad + " " + soyad + " " + yas + " " + adres;
+            return ad + " " + soyad + " " + yasHesapla() + " " + adres;
     }
 }

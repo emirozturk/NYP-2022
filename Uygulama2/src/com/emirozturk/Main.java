@@ -4,10 +4,10 @@ package com.emirozturk;
 public class Main {
 
     public static void main(String[] args) {
-        var yeniKisi = new Kisi("Yunus Emre","BATUR",(byte)20);
+        var yeniKisi = new Kisi("Yunus Emre","BATUR",(short)2002);
         System.out.println(yeniKisi);
-        var ikinciKisi =new Kisi("Emir","Öztürk",(byte)120,"Edirne");
+        var ikinciKisi =new Kisi("Emir","Öztürk",(short)1902,"Edirne");
         System.out.println(ikinciKisi);
-        System.out.println(ikinciKisi.getYas());
+        System.out.println(ikinciKisi.yasHesapla());
     }
 }
