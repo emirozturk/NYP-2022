@@ -13,14 +13,14 @@ public class Kuyruk {
         kuyruk = new ArrayList<>();
     }
 
-    int ekle(int eklenecek) {
+    public int ekle(int eklenecek) {
         if(isaretci++ == elemanSayisi)
             return -1;
         kuyruk.add(eklenecek);
         return eklenecek;
     }
 
-    int sil() {
+    public int sil() {
         if(isaretci == 0)
             return -1;
         int deger = kuyruk.get(0);
@@ -29,10 +29,12 @@ public class Kuyruk {
         return deger;
     }
 
-    String listele() {
-        String cikti = "";
-        for (int i = 0; i < kuyruk.size(); i++)
-            cikti += kuyruk.get(i) + "<-";
-        return cikti;
+    public String listele() {
+        var builder = new StringBuilder();
+        for (var eleman:kuyruk){
+            builder.append(eleman);
+            builder.append("<-");
+        }
+        return builder.toString();
     }
 }
