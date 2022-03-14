@@ -17,12 +17,17 @@ public class OgrenciListesi {
     }
     public OgrenciListesi(Path dosyaYolu) {
         this.dosyaYolu = dosyaYolu;
+        ogrenciler = new ArrayList<>();
         try{
-            var satirlar = Files.readAllLines(dosyaYolu);
-            for(var satir:satirlar){
-                Ogrenci o = parseEt(satir);
-                ogrenciler.add(o);
+            if(Files.exists(dosyaYolu)){
+                var satirlar = Files.readAllLines(dosyaYolu);
+                for(var satir:satirlar){
+                    Ogrenci o = parseEt(satir);
+                    ogrenciler.add(o);
+                }
             }
+            else
+                Files.createFile(dosyaYolu);
         }
         catch(IOException exception){
             System.out.println(exception.getMessage());
@@ -46,9 +51,10 @@ public class OgrenciListesi {
         }
     }
     public String listele(){
-        String output="";
+        StringBuilder output= new StringBuilder();
+        int i=0;
         for(var ogrenci:ogrenciler)
-            output += ogrenci.toString() + "\n";
-        return output;
+            output.append(i++).append(" ").append(ogrenci.toString()).append("\n");
+        return output.toString();
     }
 }
