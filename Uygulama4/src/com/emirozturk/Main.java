@@ -2,34 +2,16 @@ package com.emirozturk;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
-class Rastgele{
-    Random random;
-    public Rastgele(){
-        random = new Random();
-    }
-    public List<Integer> intListesiAl(int elemanSayisi){
-        List<Integer> liste = new ArrayList<>();
-        for(int i=0;i<elemanSayisi;i++)
-            liste.add(random.nextInt());
-        return liste;
-    }
-    public List<Integer> intListesiAl(int elemanSayisi,int minimumDeger){
-        List<Integer> liste = new ArrayList<>();
-        for(int i=0;i<elemanSayisi;i++)
-            liste.add(random.nextInt(minimumDeger,Integer.MAX_VALUE));
-         return liste;
-    }
-    public List<Integer> intListesiAl(int elemanSayisi,int minimumDeger,int maksimumDeger){
-        List<Integer> liste = new ArrayList<>();
-        for(int i=0;i<elemanSayisi;i++)
-            liste.add(random.nextInt(minimumDeger,maksimumDeger));
-        return liste;
+
+class A{
+    @Override
+    public String toString() {
+        return "Merhaba";
     }
 }
-public class Main {
 
-    static void listele(List<Integer> liste){
+public class Main {
+    static <T> void listele(List<T> liste){
         for(var eleman:liste)
             System.out.print(eleman+" ");
         System.out.println();
@@ -37,13 +19,18 @@ public class Main {
 
     public static void main(String[] args) {
         var r = new Rastgele();
-        var sonuc = r.intListesiAl(10);
+        var sonuc = r.listeAl(10);
         listele(sonuc);
-        sonuc = r.intListesiAl(10,0);
+        sonuc = r.listeAl(10,0);
         listele(sonuc);
-        sonuc = r.intListesiAl(10,50,100);
+        sonuc = r.listeAl(10,50,100);
         listele(sonuc);
-        var doubleSonuc = r.doubleListesiAl(10,0,100);
+        var doubleSonuc = r.listeAl(10,0.0,100.0);
         listele(doubleSonuc);
+        var aListesi = new ArrayList<A>();
+        aListesi.add(new A());
+        aListesi.add(new A());
+        aListesi.add(new A());
+        listele(aListesi);
     }
 }
