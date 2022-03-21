@@ -14,8 +14,7 @@ public class Main {
             System.out.println("2. Sil");
             System.out.println("3. Çıkış");
             var scanner = new Scanner(System.in);
-            var secim = scanner.nextInt();
-            scanner.nextLine();
+            var secim = Integer.parseInt(scanner.next());
             if (secim == 1) {
                 System.out.println("Tc:");
                 var tcNo = scanner.nextLine();
