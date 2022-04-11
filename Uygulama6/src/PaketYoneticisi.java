@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PaketYoneticisi {
+    int degisken;
+
     public static List<Paket> PaketOlustur(int paketSayisi){
         var paketListesi = new ArrayList<Paket>();
         for(int i=0;i<paketSayisi;i++)
