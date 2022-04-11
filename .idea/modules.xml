@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/NYP-2022.iml" filepath="$PROJECT_DIR$/.idea/NYP-2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Uygulama1/Uygulama1.iml" filepath="$PROJECT_DIR$/Uygulama1/Uygulama1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Uygulama2/Uygulama2.iml" filepath="$PROJECT_DIR$/Uygulama2/Uygulama2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Uygulama3/Uygulama3.iml" filepath="$PROJECT_DIR$/Uygulama3/Uygulama3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Uygulama4/Uygulama4.iml" filepath="$PROJECT_DIR$/Uygulama4/Uygulama4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Uygulama4_2/Uygulama4_2.iml" filepath="$PROJECT_DIR$/Uygulama4_2/Uygulama4_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Uygulama5/Uygulama5.iml" filepath="$PROJECT_DIR$/Uygulama5/Uygulama5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Uygulama6/Uygulama6.iml" filepath="$PROJECT_DIR$/Uygulama6/Uygulama6.iml" />
+    </modules>
+  </component>
+</project>
