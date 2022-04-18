@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6705735-bfe3-48f0-a803-6c22b1cf3558" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a6705735-bfe3-48f0-a803-6c22b1cf3558" name="Changes" comment="Arayüzlerin kullanılmadığı hata vermeyen hali" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,8 +24,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -56,11 +57,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650286428048</updated>
-      <workItem from="1650286429345" duration="370000" />
+      <workItem from="1650286429345" duration="687000" />
     </task>
+    <task id="LOCAL-00001" summary="Arayüzlerin kullanılmadığı hata veren hali">
+      <created>1650286859783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650286859783</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Arayüzlerin kullanılmadığı hata vermeyen hali">
+      <created>1650286928411</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650286928411</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Arayüzlerin kullanılmadığı hata veren hali" />
+    <MESSAGE value="Arayüzlerin kullanılmadığı hata vermeyen hali" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arayüzlerin kullanılmadığı hata vermeyen hali" />
   </component>
 </project>
