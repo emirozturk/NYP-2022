@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6705735-bfe3-48f0-a803-6c22b1cf3558" name="Changes" comment="Arayüzlerin kullanılmadığı hata vermeyen hali" />
+    <list default="true" id="a6705735-bfe3-48f0-a803-6c22b1cf3558" name="Changes" comment="Arayüzlerin kullanım örneği 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650286428048</updated>
-      <workItem from="1650286429345" duration="687000" />
+      <workItem from="1650286429345" duration="715000" />
     </task>
     <task id="LOCAL-00001" summary="Arayüzlerin kullanılmadığı hata veren hali">
       <created>1650286859783</created>
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650286928411</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Arayüzlerin kullanım örneği 2">
+      <created>1650287125588</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650287125588</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +100,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Arayüzlerin kullanılmadığı hata veren hali" />
     <MESSAGE value="Arayüzlerin kullanılmadığı hata vermeyen hali" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arayüzlerin kullanılmadığı hata vermeyen hali" />
+    <MESSAGE value="Arayüzlerin kullanım örneği 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arayüzlerin kullanım örneği 2" />
   </component>
 </project>
