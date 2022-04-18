@@ -1,13 +1,13 @@
 import java.io.IOException;
 
 public class OdemeYonetimi {
-    private Odeme kartlaOdeme;
+    private Odeme odeme;
 
-    public OdemeYonetimi(String adSoyad, String kartNo) {
-        kartlaOdeme = new KartlaOdeme(adSoyad, kartNo);
+    public OdemeYonetimi(Odeme odeme) {
+        this.odeme = odeme;
     }
 
     public void odemeYap(double miktar) throws IOException {
-        kartlaOdeme.ode(miktar);
+        odeme.ode(miktar);
     }
 }
